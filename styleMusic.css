@@ -1,0 +1,51 @@
+h1 {
+	position: absolute; 
+	top: -50;
+	left: 350;
+	font: 200 100px/1.5 'Pacifico', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	text-align:center;
+}
+
+body {
+   
+}
+
+
+#player {
+	position: absolute;
+	top: 0;
+	left: 225;
+}	
+
+#notes {
+	position: absolute;
+	top: 115;
+	left: 800;
+}
+
+#back {
+	position: absolute; 
+	top: 5;
+	right: 5;
+	width: 130px;
+	height:40px;
+}
+
+#backMusic {
+	position: absolute; 
+	top: 20;
+	right: 5;
+	border: 2px;
+	border-style: solid;
+    border color: #2b2b2b;
+	border-radius: 25px;
+	height:40px;
+	width:90px;
+	font-size:30px;
+}
+
+#backMusic:hover {
+	box-shadow: 0 20px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

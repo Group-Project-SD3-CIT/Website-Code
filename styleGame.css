@@ -1,0 +1,76 @@
+	
+h1 {
+	position: absolute; 
+	top: -50;
+	left: 330;
+	font: 200 100px/1.5 'Pacifico', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	text-align:center;
+}
+
+body {
+   
+}
+
+	font: 200 100px/1.5 'Pacifico', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	text-align:center;
+}
+
+body {
+    background: url("bg.jpg");
+	background-size: cover;
+}
+
+div#memory_board{
+	background:#CCC;
+	border:#999 1px solid;
+	width:800px;
+	height:540px;
+	padding:24px;
+	margin:0px auto;
+}
+
+div#memory_board > div{
+	background: url(tile_bg.jpg) no-repeat;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:20px;
+	font-size:64px;
+	cursor:pointer;
+	text-align:center;
+}
+
+#memoryDiv{
+	padding: 87px;
+}
+
+#back {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 130px;
+	height:40px;
+}
+
+#backGame {
+	position: absolute; 
+	top: 20;
+	right: 5;
+	border: 2px;
+	border-style: solid;
+    border color: #2b2b2b;
+	border-radius: 25px;
+	height:40px;
+	width:90px;
+	font-size:30px;
+}
+
+#backGame:hover {
+	box-shadow: 0 20px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
